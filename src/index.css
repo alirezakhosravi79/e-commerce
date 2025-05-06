@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merienda:wght@300..900&family=Oswald:wght@200..700&display=swap');
+
 @import "tailwindcss";
 @plugin "daisyui";
+
 
 body {
   background-color: black;

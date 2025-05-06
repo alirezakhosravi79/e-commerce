@@ -5,6 +5,7 @@ import Cart from "./pages/Cart";
 import Blog from "./pages/Blog";
 import Contact from "./pages/Contact";
 import Navbar from "./components/Navbar";
+import Login from "./pages/Login";
 // import Footer from "./components/Footer";
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Route path="/cart" element={<Cart />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/login" element={<Login />} />
       </Routes>
       {/* <Footer /> */}
     </>

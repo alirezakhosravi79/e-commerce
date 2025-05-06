@@ -1,7 +1,7 @@
 
 function Login() {
   return (
-    <div className="text-white">Login</div>
+    <div className="text-white">Login person</div>
   )
 }
 

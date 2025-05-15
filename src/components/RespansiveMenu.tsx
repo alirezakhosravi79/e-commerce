@@ -12,7 +12,7 @@ function ResponsiveMenu({ menuOpen, toggleMenu }: ResponsiveMenuProps) {
     <>
       {/* منوی کشویی همبرگری فقط در موبایل و تبلت */}
       <div
-        className={`fixed top-0 left-0 h-full w-64 bg-blue-700 z-50 transform transition-transform duration-300 ${
+        className={`fixed top-0 left-0 h-full w-64 bg-slate-700 z-50 transform transition-transform duration-300 ${
           menuOpen ? "translate-x-0" : "-translate-x-full"
         }`}
       >

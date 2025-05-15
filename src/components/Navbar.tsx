@@ -26,7 +26,7 @@ function Navbar() {
   return (
     <>
       {/* نوار اصلی بالای صفحه */}
-      <nav className="text-white dark:bg-blue-600 cursor-pointer px-6 py-3 flex items-center justify-between flex-wrap">
+      <nav className="text-white  dark:bg-gray-600 cursor-pointer px-6 py-3 flex items-center justify-between flex-wrap">
         {/* لوگو و آیکن‌های سمت چپ */}
         <div className="flex items-center gap-4">
           {/* دکمه منوی همبرگری - فقط در موبایل و تبلت نمایش داده میشه */}
@@ -37,7 +37,7 @@ function Navbar() {
           {/* لوگو فروشگاه */}
           <NavLink to="/">
             <h1 className="text-xl font-bold text-black">
-              <FaShop className="text-3xl text-white hover:text-black transition-all ease-in-out" />
+              <FaShop className="text-3xl text-white  transition-all ease-in-out" />
             </h1>
           </NavLink>
 
@@ -64,7 +64,7 @@ function Navbar() {
               to="/"
               className={({ isActive }) =>
                 isActive
-                  ? "underline decoration-black underline-offset-4"
+                  ? "underline decoration-white underline-offset-4"
                   : "text-white"
               }
             >
@@ -76,7 +76,7 @@ function Navbar() {
               to="/store"
               className={({ isActive }) =>
                 isActive
-                  ? "underline decoration-black underline-offset-4"
+                  ? "underline decoration-white underline-offset-4"
                   : "text-white"
               }
             >
@@ -88,7 +88,7 @@ function Navbar() {
               to="/contact"
               className={({ isActive }) =>
                 isActive
-                  ? "underline decoration-black underline-offset-4"
+                  ? "underline decoration-white underline-offset-4"
                   : "text-white"
               }
             >
@@ -100,7 +100,7 @@ function Navbar() {
               to="/blog"
               className={({ isActive }) =>
                 isActive
-                  ? "underline decoration-black underline-offset-4"
+                  ? "underline decoration-white underline-offset-4"
                   : "text-white"
               }
             >
@@ -146,7 +146,9 @@ function Navbar() {
                 </a>
               </li> */}
               <li>
-                <NavLink to='/login' className="text-xl">Login</NavLink>
+                <NavLink to="/login" className="text-xl">
+                  Login
+                </NavLink>
               </li>
               <li>
                 <a className="text-xl">Logout</a>
